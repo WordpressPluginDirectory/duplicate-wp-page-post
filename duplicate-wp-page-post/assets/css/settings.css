@@ -1,0 +1,278 @@
+.dpp_page_settings {
+	margin-top: 18px;
+}
+
+.dpp_page_settings .dpp-settings-form {
+	max-width: 1350px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	box-sizing: border-box;
+}
+
+.dpp_page_settings .dpp-settings-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 86px;
+	padding: 16px 24px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.dpp_page_settings .dpp-settings-brand {
+	display: flex;
+	align-items: center;
+	min-width: 0;
+}
+
+.dpp_page_settings .dpp-settings-icon {
+	position: relative;
+	display: inline-block;
+	width: 38px;
+	height: 42px;
+	margin-right: 18px;
+	box-sizing: border-box;
+	flex: 0 0 38px;
+}
+
+.dpp_page_settings .dpp-settings-icon::before,
+.dpp_page_settings .dpp-settings-icon::after {
+	position: absolute;
+	content: '';
+	box-sizing: border-box;
+	width: 23px;
+	height: 30px;
+	border: 2px solid #2271b1;
+	border-radius: 2px;
+	background: #fff;
+}
+
+.dpp_page_settings .dpp-settings-icon::before {
+	top: 9px;
+	left: 1px;
+}
+
+.dpp_page_settings .dpp-settings-icon::after {
+	top: 2px;
+	left: 9px;
+}
+
+.dpp_page_settings .dpp-settings-header h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	line-height: 1.25;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.dpp_page_settings .dpp-settings-header p {
+	margin: 4px 0 0;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.dpp_page_settings .dpp-settings-meta {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 4px;
+	margin-left: 24px;
+	flex: 0 0 auto;
+	text-align: right;
+}
+
+.dpp_page_settings .dpp-settings-version {
+	color: #646970;
+	font-size: 12px;
+	line-height: 1.3;
+}
+
+.dpp_page_settings .dpp-settings-review {
+	color: #2271b1;
+	font-size: 12px;
+	line-height: 1.35;
+	text-decoration: none;
+}
+
+.dpp_page_settings .dpp-settings-review:hover,
+.dpp_page_settings .dpp-settings-review:focus {
+	color: #135e96;
+	text-decoration: underline;
+}
+
+.dpp_page_settings .dpp-review-heart {
+	font-size: 13px;
+	line-height: 1;
+}
+
+/* The save notice is a separate full-width row, never part of the header. */
+.dpp_page_settings .dpp-settings-notice {
+	position: relative;
+	clear: both;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 42px;
+	margin: 0;
+	padding: 8px 42px 8px 24px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dcdcde;
+	border-left: 4px solid;
+	background: #f6f7f7;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.dpp_page_settings .dpp-settings-notice-success {
+	border-left-color: #00a32a;
+	background: #f0f6fc;
+}
+
+.dpp_page_settings .dpp-settings-notice-error {
+	border-left-color: #d63638;
+	background: #fcf0f1;
+}
+
+.dpp_page_settings .dpp-settings-notice-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	border-radius: 50%;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.dpp_page_settings .dpp-settings-notice-success .dpp-settings-notice-icon {
+	color: #fff;
+	background: #00a32a;
+}
+
+.dpp_page_settings .dpp-settings-notice-error .dpp-settings-notice-icon {
+	color: #fff;
+	background: #d63638;
+}
+
+.dpp_page_settings .dpp-settings-notice-text {
+	font-weight: 500;
+	color: #1d2327;
+}
+
+.dpp_page_settings .dpp-settings-notice-dismiss {
+	position: absolute;
+	top: 50%;
+	right: 12px;
+	width: 28px;
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	transform: translateY(-50%);
+	border: 0;
+	background: transparent;
+	color: #646970;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.dpp_page_settings .dpp-settings-notice-dismiss:hover,
+.dpp_page_settings .dpp-settings-notice-dismiss:focus {
+	color: #1d2327;
+}
+
+.dpp_page_settings .dpp-settings-body {
+	padding: 0 24px 8px;
+}
+
+.dpp_page_settings .dpp-settings-body .form-table {
+	margin: 0;
+}
+
+.dpp_page_settings .dpp-settings-body .form-table th {
+	width: 230px;
+	padding: 13px 20px 13px 0;
+	vertical-align: top;
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+.dpp_page_settings .dpp-settings-body .form-table td {
+	padding: 11px 0;
+	vertical-align: top;
+}
+
+.dpp_page_settings .dpp-settings-body .form-table tr + tr th,
+.dpp_page_settings .dpp-settings-body .form-table tr + tr td {
+	border-top: 1px solid #f0f0f1;
+}
+
+.dpp_page_settings .dpp-settings-body .form-table th em {
+	display: block;
+	margin-top: 2px;
+	font-weight: 400;
+	color: #646970;
+}
+
+.dpp_page_settings .dpp-settings-body .description {
+	margin: 3px 0 0;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.35;
+}
+
+.dpp_page_settings .dpp-settings-body .regular-text {
+	width: 430px;
+	max-width: 100%;
+}
+
+.dpp_page_settings .dpp-settings-body select {
+	min-height: 34px;
+}
+
+.dpp_page_settings .dpp-settings-body .submit {
+	margin: 10px 0 12px;
+	padding: 0;
+}
+
+@media screen and (max-width: 782px) {
+	.dpp_page_settings {
+		margin-right: 10px;
+	}
+
+	.dpp_page_settings .dpp-settings-header {
+		align-items: flex-start;
+		padding: 16px;
+	}
+
+	.dpp_page_settings .dpp-settings-icon {
+		margin-right: 12px;
+	}
+
+	.dpp_page_settings .dpp-settings-header h1 {
+		font-size: 20px;
+	}
+
+	.dpp_page_settings .dpp-settings-meta {
+		align-items: flex-end;
+		margin-left: 12px;
+	}
+
+	.dpp_page_settings .dpp-settings-body {
+		padding: 0 16px 8px;
+	}
+
+	.dpp_page_settings .dpp-settings-body .form-table th,
+	.dpp_page_settings .dpp-settings-body .form-table td {
+		display: block;
+		width: auto;
+		padding: 8px 0 4px;
+	}
+
+	.dpp_page_settings .dpp-settings-body .form-table td {
+		padding-bottom: 10px;
+	}
+}
